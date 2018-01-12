@@ -8,7 +8,6 @@ import net.thucydides.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
 import skeleton.utils.Utils;
 
-import java.util.concurrent.TimeUnit;
 
 @DefaultUrl("https://google.fr")
 public class SearchPage extends PageObject {
