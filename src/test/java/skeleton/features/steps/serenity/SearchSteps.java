@@ -27,4 +27,10 @@ public class SearchSteps {
         WebElement result = searchResultPage.getSearchResultOnPosition(position);
         result.click();
     }
+
+    @Step
+    public String getCurrentURL(){
+        return searchResultPage.getDriver().getCurrentUrl();
+
+    }
 }

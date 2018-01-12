@@ -1,7 +1,7 @@
 Narrative:
   A user wants to search for something on Google.
 
-Scenario: Chekhing the first search result on google of some keyword.
+Scenario: Checking a search result on a given position.
 
 Given User searches for <searchWord>
 When User gets results

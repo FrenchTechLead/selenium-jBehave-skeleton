@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>skeleton</groupId>
-	<artifactId>skeletton-jbehave-serenity</artifactId>
+	<artifactId>skeleton-jbehave-serenity</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>skeletton jbehave serenity</name>
+	<name>skeleton JBehave Serenity</name>
 
 
 

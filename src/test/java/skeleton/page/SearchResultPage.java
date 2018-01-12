@@ -13,6 +13,6 @@ public class SearchResultPage extends PageObject {
 
 
     public WebElement getSearchResultOnPosition(int position){
-        return this.searchResults.findElement(By.xpath("div/div[2]/section/div[3]/a"));
+        return this.searchResults.findElement(By.xpath("div[1]/div/div/h3/a"));
     }
 }

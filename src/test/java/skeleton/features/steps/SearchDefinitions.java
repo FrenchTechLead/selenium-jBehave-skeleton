@@ -12,6 +12,8 @@ public class SearchDefinitions {
     @Steps
     SearchSteps searchSteps;
 
+
+    /*START: Scenario: Checking a search result on a given position.*/
     @Given("User searches for <searchWord>")
     public void givenUserSearchesFor(String searchWord) {
 
@@ -31,9 +33,10 @@ public class SearchDefinitions {
 
     @Then("User goes to a new website")
     public void userGoesToANewWebsite(){
-        Assert.assertTrue(true);
+        String currentURL = searchSteps.getCurrentURL();
+        Assert.assertNotEquals("https://google.fr", currentURL);
     }
-
+    /*END: Scenario: Checking a search result on a given position.*/
 
 
 
